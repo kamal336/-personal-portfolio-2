@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 h2{
@@ -34,13 +34,14 @@ h3{
     display: flex;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    padding: 0 5%;
+    padding: 0 4%;
+    margin-bottom: 50px;
 
 }
 
 .text-area{
     width: 50%;
-    padding: 0 2%;
+    padding: 0 5%;
 }
 
 
@@ -52,4 +53,14 @@ h3{
 }
 
 /*banner section ends from here*/
+
+/*dream section starts from here*/
+#dream-section{
+    display: flex;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 50px;
+}
+/*dream section ends from here*/
 

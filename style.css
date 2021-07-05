@@ -64,3 +64,75 @@ h3{
 }
 /*dream section ends from here*/
 
+/*experience section starts from here*/
+#experience-section{
+   
+ 
+    margin-bottom: 50px;
+}
+
+.experience-div{
+    text-align: center;
+    display: flex;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+
+.text-title{
+    text-align: center;
+}
+
+.dotted-hr{
+    border: 7px dotted rgb(17, 17, 17);
+    border-bottom: none;
+    width: 60px;
+}
+.fullstack-dev{
+    width: 50%;
+    padding: 10px;
+    margin:  40px 60px;
+    box-shadow: 5px 6px 20px #353333;
+    border-left: 7px solid;
+    border-image-source: linear-gradient(180deg,#f86656,#ee9d06);
+    border-image-slice: 1;
+    height: 350px;
+}
+
+.baby-dev{
+    width: 50%;
+    padding: 10px;
+    margin:  40px 60px;
+    box-shadow: 5px 6px 20px #353333;
+    height: 350px;
+    border-left: 7px solid;
+    border-image-source: linear-gradient(180deg,#079c40,#0b8bbe);
+    border-image-slice: 1;
+}
+/*experience section ends from here*/
+
+/*footer section starts from here*/
+footer{
+    text-align: center;
+  
+}
+
+ul li {
+  overflow: hidden;
+  display: inline-block;
+}
+
+ul li a{
+    padding: 10px;
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    background-color: rgb(164, 165, 165);
+}
+
+.social-icon{
+    font-size: 2.1rem;
+
+}
+/*footer section ends from here*/
+
